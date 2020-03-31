@@ -8,7 +8,7 @@ def list_(dict):
 #check to make sure input for number value is integer    
 def num_input():
   try:
-    a = (input('Number: '))
+    a = int(input('Number: '))
     return a
   except ValueError:
     print('Please enter numbers only.')
